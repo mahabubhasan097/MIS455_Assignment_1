@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    display: flex;
+}
+.top-sub-1{
+    padding: 10px 0 0 85px;
+    width: 30%;
+}
+.top-sub-1 h1{
+    font-size: 45px;
+    color: #6d6868;
+}
+.top-sub-1 ul li{
+    color: #888888;
+}
+.top-sub-2{
+    text-align: left;
+    width: 60%;
+}
+.top-sub-2 img{
+    width: 450px;
+    height: 450px;
+}
+.middle{
+    display: flex;
+    margin: 100px 0 200px;
+}
+.middle-sub-1{
+    padding: 10px 0;
+    text-align: right;
+    width: 40%;
+}
+.middle-sub-1 img{
+    margin-right: 20px;
+   width: 400px;
+   height: 400px;
+}
+.middle-sub-2{
+    padding: 20px;
+    width: 50%;
+}
+.middle-sub-2 p{
+    color: #888888;
+}
+.bottom{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.bottom-sub{
+    padding: 10px;
+    border: 1px solid #ddd5d5;
+    margin: 0 15px;
+    width: 27%;
+}
+.bottom-sub:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.01);
+}
+.bottom-sub span i{
+    font-size: 30px;
+}
+#icon1{
+    color: rgb(241, 104, 104);
+}
+#icon2{
+    color: rgb(77, 77, 150);
+}
+#icon3{
+    color: cornflowerblue;
+}
+.bottom-sub-1 h2{
+    padding-left: 85px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.bottom-sub h3{
+    font-size: 35px
+}
+.bottom-sub p{
+    color: #888888;
+    font-size: 20px;
+}
+.footer p{
+    color: #888888;
+    font-size: 20px;
+    padding-left: 85px;
+    margin: 150px 0 80px;
+}
